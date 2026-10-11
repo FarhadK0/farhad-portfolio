@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <!-- Page metadata and browser setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#121513">
+    <meta
+      name="description"
+      content="Farhad Kishwar's portfolio: software development, data analytics, technical skills and GitHub profile."
+    >
+    <meta property="og:title" content="Farhad Kishwar · Development & Data">
+    <meta
+      property="og:description"
+      content="Explore Farhad Kishwar's development and data analytics skills and GitHub profile."
+    >
+    <title>Farhad Kishwar — Development & Data</title>
+
+    <!-- Assets and page behavior -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+  </head>
+
+  <body>
+    <!-- Accessibility shortcut for keyboard users -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Main site header with branding and navigation -->
+    <header class="header">
+      <a class="wordmark" href="#home" aria-label="Farhad Kishwar home">Farhad<span>.</span></a>
+      <nav class="navigation" id="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#contact">Contact <span>↗</span></a>
+      </nav>
+      <div class="nav-tools">
+        <button class="theme-button" aria-label="Switch to light theme" title="Change theme">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4L19 5"></path>
+          </svg>
+        </button>
+        <button class="menu-button" aria-controls="navigation" aria-expanded="false" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero section: introduction and animated portfolio poster -->
+      <section class="hero container" id="home" aria-labelledby="hero-title">
+        <div class="hero-top">
+          <span class="eyebrow"><span class="status-dot"></span> PERSONAL PORTFOLIO</span>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="intro">Hello, I'm Farhad.</p>
+            <h1 id="hero-title">
+              Code with<br>
+              purpose.<br>
+              <em>Data with insight.</em>
+            </h1>
+            <p class="hero-description">
+              Exploring the space between thoughtful web experiences and meaningful data.
+              A background in software development. A focus on analytics.
+            </p>
+          </div>
+
+          <div class="kinetic-hero" data-motion-surface data-in-view="true">
+            <div class="kinetic-poster" role="img" aria-label="I turn coffee into code. Occasionally bugs. Then more coffee.">
+              <div class="kinetic-art" aria-hidden="true">
+                <span class="poster-tag">A DEVELOPER’S NATURAL HABITAT</span>
+                <span class="poster-intro">I turn</span>
+                <span class="coffee-word">
+                  <span style="--letter-index:0">c</span>
+                  <span style="--letter-index:1">o</span>
+                  <span style="--letter-index:2">f</span>
+                  <span style="--letter-index:3">f</span>
+                  <span style="--letter-index:4">e</span>
+                  <span style="--letter-index:5">e</span>
+                </span>
+                <span class="poster-into">into</span>
+                <span class="code-word">
+                  <span style="--letter-index:0">C</span>
+                  <span style="--letter-index:1">O</span>
+                  <span style="--letter-index:2">D</span>
+                  <span style="--letter-index:3">E</span>
+                  <span style="--letter-index:4">.</span>
+                </span>
+                <span class="bug-sticker">oops.<span>found a bug.</span></span>
+                <div class="poster-footnote">
+                  <span>*Occasionally bugs.<br>Then more coffee.</span>
+                  <span class="poster-smile">:)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="kinetic-footer">
+              <span>A LITTLE CODE. A LITTLE CHARACTER.</span>
+              <button class="motion-toggle" type="button" aria-pressed="false" aria-label="Pause all decorative animation">
+                Pause motion <span aria-hidden="true">Ⅱ</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <span>SOFTWARE DEVELOPMENT & DATA ANALYTICS</span>
+          <a href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+        </div>
+      </section>
+
+      <!-- Technology highlights shown as a compact strip -->
+      <div class="skills-strip" aria-label="Selected technologies">
+        <div class="container">
+          <span>React</span>
+          <span class="strip-star">✳</span>
+          <span>Python</span>
+          <span class="strip-star">✳</span>
+          <span>SQL</span>
+          <span class="strip-star">✳</span>
+          <span>JavaScript</span>
+          <span class="strip-star">✳</span>
+          <span>HTML</span>
+          <span class="strip-star">✳</span>
+          <span>CSS</span>
+          <span class="strip-star">✳</span>
+          <span>Pandas</span>
+          <span class="strip-star">✳</span>
+          <span>Node.js</span>
+        </div>
+      </div>
+
+      <!-- About section: background, skills, and GitHub profile link -->
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-title reveal">
+            <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+            <h2 id="about-title">
+              Curiosity is<br>
+              the <em>starting point.</em>
+            </h2>
+            <div class="about-signature">Farhad Kishwar <span>↗</span></div>
+          </div>
+
+          <div class="about-content reveal">
+            <p class="about-lead">
+              A software development background,<br>
+              with a growing focus on data analytics.
+            </p>
+            <p>
+              My academic work spans responsive web applications, databases and Python-based data analysis.
+              I'm interested in how a useful interface and a clear understanding of data can work together.
+            </p>
+
+            <div class="skill-groups">
+              <div>
+                <h3>Development</h3>
+                <p>React · JavaScript · HTML · CSS<br>Node.js · MongoDB · Git</p>
+              </div>
+              <div>
+                <h3>Data & analytics</h3>
+                <p>Python · SQL · Pandas · Matplotlib<br>ETL · Data cleaning · Jupyter</p>
+              </div>
+            </div>
+
+            <a
+              class="github-joke"
+              href="https://github.com/FarhadK0"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit FarhadK0 on GitHub, opens in a new tab"
+              data-motion-surface
+              data-in-view="true"
+            >
+              <span class="github-kicker">MY LITTLE CORNER OF THE INTERNET</span>
+              <span class="github-punchline">
+                <span class="commit-word">
+                  <span style="--letter-index:0">C</span>
+                  <span style="--letter-index:1">o</span>
+                  <span style="--letter-index:2">m</span>
+                  <span style="--letter-index:3">m</span>
+                  <span style="--letter-index:4">i</span>
+                  <span style="--letter-index:5">t</span>
+                </span>
+                <em>happens.</em>
+              </span>
+              <span class="github-caption">Code lives here. Bugs occasionally visit.</span>
+              <span class="github-cta">
+                Visit GitHub
+                <span class="github-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section: message, email link, and copy button -->
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-top reveal">
+            <p class="eyebrow"><span class="status-dot"></span> 02 / LET'S CONNECT</p>
+          </div>
+
+          <div class="contact-main reveal" data-motion-surface data-in-view="true">
+            <h2 id="contact-title">
+              Say <span class="hello-word"><span style="--letter-index:0">h</span><span style="--letter-index:1">e</span><span style="--letter-index:2">l</span><span style="--letter-index:3">l</span><span style="--letter-index:4">o</span><span style="--letter-index:5">.</span></span><br>
+              <em class="byte-word">Let’s talk ideas.</em>
+            </h2>
+
+            <div class="contact-whisper">
+              <span class="psst-bubble">let’s chat</span>
+              <p>I’d love to hear<br>your ideas.</p>
+              <span class="whisper-face" aria-hidden="true">;)</span>
+            </div>
+          </div>
+
+          <div class="contact-bottom reveal">
+            <div>
+              <a class="email-link" href="mailto:farhadk8552@gmail.com">farhadk8552@gmail.com</a>
+              <button class="copy-email" type="button" aria-label="Copy email address">
+                Copy email <span>▢</span>
+              </button>
+              <span class="copy-status" role="status"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer with copyright and quick navigation -->
+    <footer class="container footer">
+      <span>© <span id="year">2026</span> Farhad Kishwar</span>
+      <span>DEVELOPMENT × DATA</span>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
