@@ -1,5 +1,8 @@
 Farhad Kishwar — Portfolio
 Welcome to my personal portfolio. I'm interested in web development and data analytics, and this website introduces me, my skills and where to find my work.
+
+Portfolio Link: farhad-portfolio.dev
+
 Features
 - Animated typography
 - Light and dark themes
